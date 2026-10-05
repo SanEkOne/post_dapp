@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 forum</title>
+</head>
+<body>
+    <h1 hidden id="account_lbl"></h1>
+    <button id="connection_btn">Connect</button>
+
+    <div hidden id="dapp">
+        <textarea id="post_text"></textarea>
+        <br>
+        <button id="makePost_btn">Make post</button>
+        <button id="deleteAllPosts_btn">Delete all</button>
+
+        <div id="postList"></div>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/web3@4.16.0/dist/web3.min.js "></script>
+    <script src="./contract_abi.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
